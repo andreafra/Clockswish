@@ -1,0 +1,10 @@
+{
+	CYTagline = "Clockswish Lockscreen";
+	CYPlugin = WebCycriptLockScreen;
+	CYConfiguration = {
+		Homepage = "Clockswish.html";
+		Scrollable = NO;
+		MediaControls = NO;
+		NotificationList = NO;
+	};
+}
