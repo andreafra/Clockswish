@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>[Title, not required]</title>
+<style>
+* {background: rgba(255,255,255,0.02)}
+#darken {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background: rgba(0,0,0,0);
+    display: none;
+}
+
+@media (-cydget-media-controls) {
+    #darken {
+        display: block;
+    }
+}
+
+@media (-cydget-notification-list) {
+}
+</style>
+</head>
+<body>
+<div id="darken"></div>
+</body>
+</html>

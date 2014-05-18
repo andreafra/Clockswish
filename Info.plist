@@ -2,6 +2,7 @@
 	CYTagline = "Clockswish Lockscreen";
 	CYPlugin = WebCycriptLockScreen;
 	CYConfiguration = {
+		Background = "Background.html";
 		Homepage = "Clockswish.html";
 		Scrollable = NO;
 		MediaControls = NO;
