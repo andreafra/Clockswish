@@ -5,7 +5,7 @@ var currentMinutes = currentTime.getMinutes();
 //var currentSeconds = currentTime.getSeconds();
 if(currentHours < 10)
 {
-currentHours= "0" + currentHours.String;
+currentHours= "0" + currentHours;
 }
 if(currentMinutes < 10) 
 {
